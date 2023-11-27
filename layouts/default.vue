@@ -1,6 +1,8 @@
 <template>
-    <div class="h-screen flex flex-col">
+    <div class="h-screen flex bg-background">
         <AppHeader />
-        <slot />
+        <main class="w-screen flex justify-center items-center">
+            <slot />
+        </main>
     </div>
 </template>
